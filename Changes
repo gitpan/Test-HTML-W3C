@@ -1,4 +1,7 @@
-$Id: Changes 3768 2006-02-27 23:58:52Z victor $
+$Id: Changes 3769 2006-02-28 04:56:15Z victor $
+
+0.02 Monday 27th February 2006
+    - Fixed minor POD error
 
 0.01 Monday 27th February 2006
     - Initial release

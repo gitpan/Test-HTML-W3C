@@ -2,11 +2,11 @@ package Test::HTML::W3C;
 
 use strict;
 use vars qw($VERSION @EXPORT);
-$VERSION = "0.01"; 
+$VERSION = "0.02"; 
 
 =head1 NAME
 
-Test::More - yet another framework for writing test scripts
+Test::HTML::W3C - Perform W3C HTML validation testing
 
 =head1 SYNOPSIS
 
