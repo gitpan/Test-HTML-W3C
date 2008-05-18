@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
 
 use strict;
 use ExtUtils::MakeMaker;
@@ -14,6 +14,6 @@ WriteMakefile(
     VERSION_FROM  => "lib/Test/HTML/W3C.pm",
     PREREQ_PM     => { 
                        "WebService::Validator::HTML::W3C" => 0.1,
-                       "Test::Builder::Module" => undef,
+                       "Test::Builder::Module" => 0,
                      },
 );

@@ -2,7 +2,7 @@ package Test::HTML::W3C;
 
 use strict;
 use vars qw($VERSION @EXPORT);
-$VERSION = "0.02"; 
+$VERSION = "0.03"; 
 
 =head1 NAME
 
@@ -10,11 +10,11 @@ Test::HTML::W3C - Perform W3C HTML validation testing
 
 =head1 SYNOPSIS
 
-  use Test::W3C::HTML tests => $test_count;
+  use Test::HTML::W3C tests => $test_count;
   # or
-  use Test::W3C::HTML 'show_detail';
+  use Test::HTML::W3C 'show_detail';
   # or when using both
-  use Test::W3C::HTML tests => $test_count, 'show_detail';
+  use Test::HTML::W3C tests => $test_count, 'show_detail';
 
   is_valid_markup($my_html_scalar);
 

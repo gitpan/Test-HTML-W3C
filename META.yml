@@ -1,11 +1,11 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Test-HTML-W3C
-version:      0.02
+version:      0.03
 version_from: lib/Test/HTML/W3C.pm
 installdirs:  site
 requires:
-    Test::Builder::Module:         
+    Test::Builder::Module:         0
     WebService::Validator::HTML::W3C: 0.1
 
 distribution_type: module
