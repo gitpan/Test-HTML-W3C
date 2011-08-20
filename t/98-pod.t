@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl
 
 # $Id: 97-pod.t 7575 2006-02-23 00:19:02Z vfelix $
 

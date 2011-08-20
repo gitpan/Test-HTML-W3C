@@ -1,4 +1,7 @@
-$Id: Changes 4214 2008-05-18 06:43:33Z victor $
+$Id: Changes 4376 2011-08-20 04:41:22Z victor $
+
+0.04 Saturday 20th Aug 2011
+    - Improved POD. Applied patch provided by Nicholas Bamber.
 
 0.03 Sunday 18th May 2008
     - Fixed POD error (CPAN Bug #35002)

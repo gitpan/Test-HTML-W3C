@@ -2,7 +2,7 @@ package Test::HTML::W3C;
 
 use strict;
 use vars qw($VERSION @EXPORT);
-$VERSION = "0.03"; 
+$VERSION = "0.04"; 
 
 =head1 NAME
 
@@ -27,11 +27,8 @@ Test::HTML::W3C - Perform W3C HTML validation testing
 
 =head1 DESCRIPTION
 
-The purpose of this module is to provide a wide range of testing
-utilities.  Various ways to say "ok" with better diagnostics,
-facilities to skip tests, test future features and compare complicated
-data structures.  While you can do almost anything with a simple
-C<ok()> function, it doesn't provide good diagnostic output.
+The purpose of this module is to provide a wrapper around the W3C
+that works with the L<Test::More> testing framework.
 
 =head1 ABUSE
 
@@ -100,11 +97,10 @@ sub validator {
 
 =item plan();
 
-B<Description:> Returns the underlying WebService::Validator::HTML::W3C object
+B<Description:> Access to the underlying C<plan> method provided by
+L<Test::Builder>.
 
-B<Parameters:> None.
-
-B<Returns:> $validator
+B<Parameters:> As per L<Test::Builder>
 
 =cut
 
